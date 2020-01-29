@@ -2,7 +2,7 @@
 $titles = 'Exercice 6';
 require_once 'header.php';
 require_once 'parameters.php';
-$dsn = 'mysql:dbname=' . DB . '; host=' . HOST . ';';
+$dsn = 'mysql:dbname=' . DB . '; host=' . HOST;
 try {
     $db = new PDO($dsn, USER, PASSWORD);
 } catch (Exception $ex){
